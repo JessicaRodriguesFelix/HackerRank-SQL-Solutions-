@@ -7,5 +7,7 @@ Query all columns for all American cities in CITY with populations larger than 1
  ![image](https://user-images.githubusercontent.com/40796998/178380807-0559e899-ebdc-472f-ac44-f609eabc0713.png)
 
 
+SOLUTION: 
+
 SELECT * FROM CITY
 WHERE POPULATION > 100000 AND COUNTRYCODE = "USA";
